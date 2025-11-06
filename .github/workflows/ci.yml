@@ -9,4 +9,5 @@ jobs:
         steps: 
             - name: Recuperer le code source
               uses: actions/checkout@v5
-            
+            - name: Run test
+              run: cd app && php artisan test
