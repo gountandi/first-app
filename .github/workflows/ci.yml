@@ -8,5 +8,5 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
             - name: Recuperer le code source
-              uses: actions/checkouts@v5
+              uses: actions/checkout@v5
             
