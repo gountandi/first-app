@@ -13,9 +13,6 @@ RUN apt update \
 && apt-get install libfreetype-dev -y \
 && apt-get install libjpeg62-turbo-dev -y \
 && apt-get install libpng-dev -y \
-&& apt-get install libpq-dev -y \
-&& apt-get install libpq-dev -y \
-&& apt-get install libpq5 -y \
 && apt-get install zip -y \
 && docker-php-ext-install bcmath pdo pgsql pdo_pgsql \
 && php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
